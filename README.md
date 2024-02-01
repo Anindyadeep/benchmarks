@@ -19,6 +19,8 @@
     <li><a href="#-getting-started">Getting started</a></li>
     <li><a href="#-usage">Usage</a></li>
     <li><a href="#-contribute">Contribute</a></li>
+    <li><a href="#-roadmap">Roadmap</a></li>
+    <li><a href="#-introducing-prem-grant-program">Introducing Prem Grant Program</a></li>
   </ol>
 </details>
 
@@ -26,7 +28,7 @@
 
 ## 📊 Quick glance towards performance metrics for Llama-2-7B
 
-Take a first glance of Llama-2-7B Model Performance Metrics Across Different Precision and Inference Engines.
+Take a first glance of Llama-2-7B Model Performance Metrics Across Different Precision and Inference Engines. Metric used: `tokens/sec`
 
 
 | Engine                                      | float32      | float16        | int8          | int4          |
@@ -110,7 +112,7 @@ For a comprehensive execution of all benchmarks, use the overarching `benchmark.
 ./bench.sh --prompt <value> --max_tokens <value> --repetitions <value> --log_file <file_path> --device <cpu/cuda/metal> --models_dir <path_to_models>
 ```
 
-Again, customize the parameters according to your preferences, ensuring that <file_path> and <path_to_models> point to the correct locations.
+Again, customize the parameters according to your preferences, ensuring that `<file_path>` and `<path_to_models>` point to the correct locations.
 
 Feel free to adjust the parameters as needed for your specific benchmarking requirements. Please note that, running all the benchmarks collectively can requires lot of storage (around 500 GB). Please make sure that you have enough storage to run all of them at once.
 
